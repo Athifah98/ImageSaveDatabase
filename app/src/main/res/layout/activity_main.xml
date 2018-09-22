@@ -1,0 +1,244 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+
+            <TextView
+                android:id="@+id/tvEaduan"
+                android:layout_width="328dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="16dp"
+                android:layout_marginBottom="7dp"
+                android:layout_weight="1"
+                android:text="E-Aduan"
+                android:textAlignment="center"
+                android:textColor="#FF050505"
+                android:textSize="28sp" />
+
+            <ImageView
+                android:id="@+id/imageView"
+                android:layout_width="150dp"
+                android:layout_height="150dp"
+                android:layout_marginLeft="115dp"
+                android:layout_weight="1"
+                app:srcCompat="@mipmap/ic_launcher" />
+            <TextView
+                android:id="@+id/tvJenisAduan"
+                android:layout_width="462dp"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="JenisAduan"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etJenisAduan"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="JenisAduan"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvNama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Nama"
+                android:textColor="#FF050505"
+                android:textSize="16dp" />
+
+            <EditText
+                android:id="@+id/etNama"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nama"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvAlamat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Alamat"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etAlamat"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Alamat"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvTelefon"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Nombor Telefon"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />/>
+
+            <EditText
+                android:id="@+id/etTelefon"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Nombor Telefon"
+                android:textSize="16sp" />
+
+            <TextView
+                android:id="@+id/tvEmel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="E-mel"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etEmel"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="E-mel"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tvTarikh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="5dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Tarikh"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etTarikh"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Tarikh"
+                android:textSize="16sp" />
+
+
+            <TextView
+                android:id="@+id/tvAduan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="0dp"
+                android:layout_weight="1"
+                android:text="Aduan"
+                android:textColor="#FF050505"
+                android:textSize="16sp" />
+
+            <EditText
+                android:id="@+id/etAduan"
+                android:layout_width="303dp"
+                android:layout_height="37dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginLeft="16dp"
+                android:layout_weight="1"
+                android:ems="10"
+                android:inputType="textPersonName"
+                android:hint="Aduan"
+                android:textSize="16sp" />
+
+
+            <Button
+                android:id="@+id/btnKamera"
+                android:layout_width="159dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="16dp"
+                android:background="#f7df31"
+                android:text="Kamera"
+                tools:layout_editor_absoluteX="16dp"
+                tools:layout_editor_absoluteY="446dp" />
+
+            <Button
+                android:id="@+id/button7"
+                android:layout_width="159dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="16dp"
+                android:background="#f7df31"
+                android:text="Galeri"
+                tools:layout_editor_absoluteX="185dp"
+                tools:layout_editor_absoluteY="446dp" />
+
+            <Button
+                android:id="@+id/btnHantar"
+                android:layout_width="159dp"
+                android:layout_height="39dp"
+                android:layout_marginBottom="7dp"
+                android:layout_marginLeft="16dp"
+                android:background="#f7df31"
+                android:text="Hantar"
+                tools:layout_editor_absoluteX="85dp"
+                tools:layout_editor_absoluteY="383dp" />
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>
